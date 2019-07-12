@@ -12,6 +12,7 @@
 		9B2224B522D92B3C00200D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B322D92B3C00200D2D /* Main.storyboard */; };
 		9B2224B722D92B3C00200D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B622D92B3C00200D2D /* Assets.xcassets */; };
 		9B2224BA22D92B3C00200D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B822D92B3C00200D2D /* LaunchScreen.storyboard */; };
+		9B2224C222D92BC900200D2D /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224C122D92BC800200D2D /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9B2224B622D92B3C00200D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2224B922D92B3C00200D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2224BB22D92B3C00200D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2224C122D92BC800200D2D /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../../Downloads/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9B2224B322D92B3C00200D2D /* Main.storyboard */,
 				9B2224B622D92B3C00200D2D /* Assets.xcassets */,
 				9B2224B822D92B3C00200D2D /* LaunchScreen.storyboard */,
+				9B2224C122D92BC800200D2D /* image.jpg */,
 				9B2224BB22D92B3C00200D2D /* Info.plist */,
 			);
 			path = C0754427_MidTerm_MAD3115S2019;
@@ -125,6 +128,7 @@
 				9B2224BA22D92B3C00200D2D /* LaunchScreen.storyboard in Resources */,
 				9B2224B722D92B3C00200D2D /* Assets.xcassets in Resources */,
 				9B2224B522D92B3C00200D2D /* Main.storyboard in Resources */,
+				9B2224C222D92BC900200D2D /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
