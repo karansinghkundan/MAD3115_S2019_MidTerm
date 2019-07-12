@@ -97,7 +97,7 @@ class LoginViewController: UIViewController
             if let Customers = dict["Users"] as? [[String:Any]]
             {
                 for customer in Customers {
-                    let id = customer["userID"] as! Int
+                    let id = customer["userId"] as! Int
                     let firstName = customer["userName"] as! String
                     
                     let email = customer["email"] as! String

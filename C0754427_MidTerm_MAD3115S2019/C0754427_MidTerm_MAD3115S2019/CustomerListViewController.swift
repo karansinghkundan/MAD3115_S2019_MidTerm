@@ -67,7 +67,7 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
     
     func readCustomersPlistFile(){
         
-        let plist = Bundle.main.path(forResource: "UserInfo", ofType: "plist")
+        let plist = Bundle.main.path(forResource: "Info_detail", ofType: "plist")
         
         if let dict = NSMutableDictionary(contentsOfFile: plist!){
             if let customers = dict["Users"] as? [[String:Any]]
