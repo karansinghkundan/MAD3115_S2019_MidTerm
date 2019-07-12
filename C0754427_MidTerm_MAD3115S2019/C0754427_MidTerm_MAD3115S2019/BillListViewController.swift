@@ -34,7 +34,7 @@ class BillListViewController: UIViewController , UITableViewDelegate, UITableVie
     }
     
     @IBAction func btn_addNewItem(_ sender: Any) {
-        self.performSegue(withIdentifier: "goToAddNewBill", sender: nil)
+        self.performSegue(withIdentifier: "goToNewBill", sender: nil)
     }
     
     @IBAction func btn_backClick(_ sender: UIBarButtonItem)

@@ -23,40 +23,40 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
         readCustomersPlistFile()
         
         
-        let b1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 55.25, mobileManufacturer: "Nokia 1100", planName: "Talk and text", mobileNumber: "+12561458962", internetUsed: 0, minuteUsed: 56)
-        let b2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 45.32, mobileManufacturer: "smsngs9", planName: "LTE  pitch plan", mobileNumber: "+14458515986", internetUsed: 67, minuteUsed: 456)
+        let bill1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 55.25, mobileManufacturer: "Nokia 1100", planName: "Talk and text", mobileNumber: "+12561458962", internetUsed: 0, minuteUsed: 56)
+        let bill2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 45.32, mobileManufacturer: "smsngs9", planName: "LTE  pitch plan", mobileNumber: "+14458515986", internetUsed: 67, minuteUsed: 456)
         
-        let b3: Internet = Internet(Id: 1, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 100.00, providerName: "Fido", internetUsed: 123)
-        let b4: Internet = Internet(Id: 2, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 200.02, providerName: "Freedom", internetUsed: 500)
+        let bill3: Internet = Internet(Id: 1, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 100.00, providerName: "Fido", internetUsed: 123)
+        let bill4: Internet = Internet(Id: 2, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 200.02, providerName: "Freedom", internetUsed: 500)
         
-        let b5: Hydro = Hydro(Id: 1, billDate: Date(), billType: billTypes.Hydro, totalBillAmount: 1000.20, agencyName: "Planet Energy", unitconsumed: 120)
-        let b6: Hydro = Hydro(Id: 2, billDate: Date(), billType: billTypes.Hydro, totalBillAmount: 545.02, agencyName: "Energizer", unitconsumed: 111)
+        let bill5: Hydro = Hydro(Id: 1, billDate: Date(), billType: billTypes.Hydro, totalBillAmount: 1000.20, agencyName: "Planet Energy", unitconsumed: 120)
+        let bill6: Hydro = Hydro(Id: 2, billDate: Date(), billType: billTypes.Hydro, totalBillAmount: 545.02, agencyName: "Energizer", unitconsumed: 111)
         
        
         let cust1: Customer = Customer(customerId: "1", firstName: "karan", lastName: "kundan", email: "karan@gmail.com")
         
-        cust1.billDictionary[1] = b1
-        cust1.billDictionary[2] = b3
+        cust1.billDictionary[1] = bill1
+        cust1.billDictionary[2] = bill3
         
         let cust2: Customer = Customer(customerId: "2", firstName: "priya", lastName: "Kaur", email: "Priya@gmail.com")
         
-        cust2.billDictionary[1] = b2
-        cust2.billDictionary[2] = b6
-        cust2.billDictionary[3] = b5
+        cust2.billDictionary[1] = bill2
+        cust2.billDictionary[2] = bill6
+        cust2.billDictionary[3] = bill5
         
         let cust3: Customer = Customer(customerId: "3", firstName: "zack", lastName: "smith", email: "zack@gmail.com")
         
-        cust3.billDictionary[1] = b4
+        cust3.billDictionary[1] = bill4
         
         
         let cust4: Customer = Customer(customerId: "4", firstName: "Shivani", lastName: "Dhiman", email: "Shivani@gmail.com")
         
-        cust4.billDictionary[1] = b3
+        cust4.billDictionary[1] = bill3
         
         
         let cust5: Customer = Customer(customerId: "5", firstName: "Jazz", lastName: "kaur", email: "Jazz@gmail.com")
         
-        cust5.billDictionary[1] = b6
+        cust5.billDictionary[1] = bill6
         
         customerArray = [cust1, cust2, cust3, cust4, cust5]
         self.tblUsersName.delegate = self

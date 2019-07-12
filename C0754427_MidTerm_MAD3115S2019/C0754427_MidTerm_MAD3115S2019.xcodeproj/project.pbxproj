@@ -29,7 +29,7 @@
 		9B2224E222D9356A00200D2D /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E122D9356A00200D2D /* ExtensionDate.swift */; };
 		9B2224E422D9358C00200D2D /* ExtensionFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E322D9358C00200D2D /* ExtensionFloat.swift */; };
 		9B2224E622D9381200200D2D /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E522D9381200200D2D /* StudentData.swift */; };
-		9B2224E822D938C900200D2D /* CustomerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E722D938C900200D2D /* CustomerListViewController.swift */; };
+		9B2224E822D938C900200D2D /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E722D938C900200D2D /* CustomerViewController.swift */; };
 		9B2224EA22D9402300200D2D /* BillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E922D9402300200D2D /* BillListViewController.swift */; };
 		9B2224EC22D944AF00200D2D /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224EB22D944AF00200D2D /* UserLoginViewController.swift */; };
 		9B2224EE22D94D8200200D2D /* NewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224ED22D94D8200200D2D /* NewBillViewController.swift */; };
@@ -60,7 +60,7 @@
 		9B2224E122D9356A00200D2D /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
 		9B2224E322D9358C00200D2D /* ExtensionFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFloat.swift; sourceTree = "<group>"; };
 		9B2224E522D9381200200D2D /* StudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
-		9B2224E722D938C900200D2D /* CustomerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewController.swift; sourceTree = "<group>"; };
+		9B2224E722D938C900200D2D /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
 		9B2224E922D9402300200D2D /* BillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListViewController.swift; sourceTree = "<group>"; };
 		9B2224EB22D944AF00200D2D /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		9B2224ED22D94D8200200D2D /* NewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				9B2224BB22D92B3C00200D2D /* Info.plist */,
 				9B2224C322D92F3F00200D2D /* Info_detail.plist */,
 				9B2224E522D9381200200D2D /* StudentData.swift */,
-				9B2224E722D938C900200D2D /* CustomerListViewController.swift */,
+				9B2224E722D938C900200D2D /* CustomerViewController.swift */,
 				9B2224E922D9402300200D2D /* BillListViewController.swift */,
 				9B2224EB22D944AF00200D2D /* UserLoginViewController.swift */,
 				9B2224ED22D94D8200200D2D /* NewBillViewController.swift */,
@@ -227,7 +227,7 @@
 				9B2224D122D9340800200D2D /* Mobile.swift in Sources */,
 				9B2224D322D9341400200D2D /* User.swift in Sources */,
 				9B2224E022D9355000200D2D /* ExtensionInt.swift in Sources */,
-				9B2224E822D938C900200D2D /* CustomerListViewController.swift in Sources */,
+				9B2224E822D938C900200D2D /* CustomerViewController.swift in Sources */,
 				9B2224EC22D944AF00200D2D /* UserLoginViewController.swift in Sources */,
 				9B2224C722D9339C00200D2D /* Bill.swift in Sources */,
 				9B2224D622D9349200200D2D /* BillType.swift in Sources */,
