@@ -8,22 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		9B2224B022D92B3C00200D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224AF22D92B3C00200D2D /* AppDelegate.swift */; };
-		9B2224B222D92B3C00200D2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224B122D92B3C00200D2D /* ViewController.swift */; };
+		9B2224B222D92B3C00200D2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224B122D92B3C00200D2D /* LoginViewController.swift */; };
 		9B2224B522D92B3C00200D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B322D92B3C00200D2D /* Main.storyboard */; };
 		9B2224B722D92B3C00200D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B622D92B3C00200D2D /* Assets.xcassets */; };
 		9B2224BA22D92B3C00200D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224B822D92B3C00200D2D /* LaunchScreen.storyboard */; };
 		9B2224C222D92BC900200D2D /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224C122D92BC800200D2D /* image.jpg */; };
+		9B2224C422D92F3F00200D2D /* Info_detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2224C322D92F3F00200D2D /* Info_detail.plist */; };
+		9B2224C722D9339C00200D2D /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224C622D9339C00200D2D /* Bill.swift */; };
+		9B2224C922D933B000200D2D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224C822D933B000200D2D /* Customer.swift */; };
+		9B2224CB22D933BC00200D2D /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224CA22D933BC00200D2D /* Hydro.swift */; };
+		9B2224CD22D933CD00200D2D /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224CC22D933CD00200D2D /* Internet.swift */; };
+		9B2224D122D9340800200D2D /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224D022D9340800200D2D /* Mobile.swift */; };
+		9B2224D322D9341400200D2D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224D222D9341400200D2D /* User.swift */; };
+		9B2224D622D9349200200D2D /* BillType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224D522D9349200200D2D /* BillType.swift */; };
+		9B2224D822D934AD00200D2D /* Customer error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224D722D934AD00200D2D /* Customer error.swift */; };
+		9B2224DA22D934F900200D2D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224D922D934F900200D2D /* StringExtension.swift */; };
+		9B2224DC22D9351500200D2D /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224DB22D9351500200D2D /* IDisplay.swift */; };
+		9B2224DE22D9352B00200D2D /* CountryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224DD22D9352B00200D2D /* CountryType.swift */; };
+		9B2224E022D9355000200D2D /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224DF22D9355000200D2D /* ExtensionInt.swift */; };
+		9B2224E222D9356A00200D2D /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E122D9356A00200D2D /* ExtensionDate.swift */; };
+		9B2224E422D9358C00200D2D /* ExtensionFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2224E322D9358C00200D2D /* ExtensionFloat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B2224AC22D92B3C00200D2D /* C0754427_MidTerm_MAD3115S2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0754427_MidTerm_MAD3115S2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2224AF22D92B3C00200D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B2224B122D92B3C00200D2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B2224B122D92B3C00200D2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B2224B422D92B3C00200D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2224B622D92B3C00200D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2224B922D92B3C00200D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2224BB22D92B3C00200D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2224C122D92BC800200D2D /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../../Downloads/image.jpg; sourceTree = "<group>"; };
+		9B2224C322D92F3F00200D2D /* Info_detail.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_detail.plist; sourceTree = "<group>"; };
+		9B2224C622D9339C00200D2D /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9B2224C822D933B000200D2D /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B2224CA22D933BC00200D2D /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9B2224CC22D933CD00200D2D /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9B2224D022D9340800200D2D /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B2224D222D9341400200D2D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9B2224D522D9349200200D2D /* BillType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillType.swift; sourceTree = "<group>"; };
+		9B2224D722D934AD00200D2D /* Customer error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer error.swift"; sourceTree = "<group>"; };
+		9B2224D922D934F900200D2D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9B2224DB22D9351500200D2D /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B2224DD22D9352B00200D2D /* CountryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryType.swift; sourceTree = "<group>"; };
+		9B2224DF22D9355000200D2D /* ExtensionInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionInt.swift; sourceTree = "<group>"; };
+		9B2224E122D9356A00200D2D /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		9B2224E322D9358C00200D2D /* ExtensionFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFloat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,46 @@
 		9B2224AE22D92B3C00200D2D /* C0754427_MidTerm_MAD3115S2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9B2224D422D9347400200D2D /* Extension */,
+				9B2224C522D9338300200D2D /* New Group */,
 				9B2224AF22D92B3C00200D2D /* AppDelegate.swift */,
-				9B2224B122D92B3C00200D2D /* ViewController.swift */,
+				9B2224B122D92B3C00200D2D /* LoginViewController.swift */,
 				9B2224B322D92B3C00200D2D /* Main.storyboard */,
 				9B2224B622D92B3C00200D2D /* Assets.xcassets */,
 				9B2224B822D92B3C00200D2D /* LaunchScreen.storyboard */,
 				9B2224C122D92BC800200D2D /* image.jpg */,
 				9B2224BB22D92B3C00200D2D /* Info.plist */,
+				9B2224C322D92F3F00200D2D /* Info_detail.plist */,
 			);
 			path = C0754427_MidTerm_MAD3115S2019;
+			sourceTree = "<group>";
+		};
+		9B2224C522D9338300200D2D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9B2224C622D9339C00200D2D /* Bill.swift */,
+				9B2224C822D933B000200D2D /* Customer.swift */,
+				9B2224CA22D933BC00200D2D /* Hydro.swift */,
+				9B2224CC22D933CD00200D2D /* Internet.swift */,
+				9B2224D022D9340800200D2D /* Mobile.swift */,
+				9B2224D222D9341400200D2D /* User.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9B2224D422D9347400200D2D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B2224D522D9349200200D2D /* BillType.swift */,
+				9B2224D722D934AD00200D2D /* Customer error.swift */,
+				9B2224D922D934F900200D2D /* StringExtension.swift */,
+				9B2224DB22D9351500200D2D /* IDisplay.swift */,
+				9B2224DD22D9352B00200D2D /* CountryType.swift */,
+				9B2224DF22D9355000200D2D /* ExtensionInt.swift */,
+				9B2224E122D9356A00200D2D /* ExtensionDate.swift */,
+				9B2224E322D9358C00200D2D /* ExtensionFloat.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +190,7 @@
 				9B2224B722D92B3C00200D2D /* Assets.xcassets in Resources */,
 				9B2224B522D92B3C00200D2D /* Main.storyboard in Resources */,
 				9B2224C222D92BC900200D2D /* image.jpg in Resources */,
+				9B2224C422D92F3F00200D2D /* Info_detail.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2224B222D92B3C00200D2D /* ViewController.swift in Sources */,
+				9B2224CD22D933CD00200D2D /* Internet.swift in Sources */,
+				9B2224D822D934AD00200D2D /* Customer error.swift in Sources */,
+				9B2224E422D9358C00200D2D /* ExtensionFloat.swift in Sources */,
+				9B2224CB22D933BC00200D2D /* Hydro.swift in Sources */,
+				9B2224B222D92B3C00200D2D /* LoginViewController.swift in Sources */,
+				9B2224DE22D9352B00200D2D /* CountryType.swift in Sources */,
+				9B2224D122D9340800200D2D /* Mobile.swift in Sources */,
+				9B2224D322D9341400200D2D /* User.swift in Sources */,
+				9B2224E022D9355000200D2D /* ExtensionInt.swift in Sources */,
+				9B2224C722D9339C00200D2D /* Bill.swift in Sources */,
+				9B2224D622D9349200200D2D /* BillType.swift in Sources */,
+				9B2224DC22D9351500200D2D /* IDisplay.swift in Sources */,
 				9B2224B022D92B3C00200D2D /* AppDelegate.swift in Sources */,
+				9B2224DA22D934F900200D2D /* StringExtension.swift in Sources */,
+				9B2224E222D9356A00200D2D /* ExtensionDate.swift in Sources */,
+				9B2224C922D933B000200D2D /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

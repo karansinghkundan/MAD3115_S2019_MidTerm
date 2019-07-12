@@ -1,5 +1,5 @@
 //
-//  Customer error.swift
+//  CountryType.swift
 //  C0754427_MidTerm_MAD3115S2019
 //
 //  Created by MacStudent on 2019-07-12.
@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import Foundation
-
-enum CustomerError : Error
+enum CountryType
 {
-    case invalidEmail, invalidMobile
+    case Canada
+    case India
+    case None
 }
