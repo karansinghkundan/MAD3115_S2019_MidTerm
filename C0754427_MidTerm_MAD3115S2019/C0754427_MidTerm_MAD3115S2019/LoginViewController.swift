@@ -14,6 +14,10 @@ class LoginViewController: UIViewController
     @IBOutlet weak var txtPassword: UITextField!
   
     
+    var UsersDict = [UsersStruct]()
+    
+    // getting user defaults reference
+    let userDefault = UserDefaults.standard
     
     
     
@@ -104,6 +108,43 @@ class LoginViewController: UIViewController
         }
         
 }
+    func checkEmailPassword(email : String , password : String) -> Bool{
+        
+        for everyCustomer in UsersDict{
+            if (everyCustomer.email == email && everyCustomer.password == password) {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func setRememberMe()  {
+        if remember.isOn {
+            userDefault.set(self.txtEmailId.text, forKey: "email")
+            userDefault.set(self.txtPassword.text, forKey: "password")
+        }else{
+            userDefault.set("", forKey: "email")
+            userDefault.set("", forKey: "password")
+        }
+    }
+    
+    func getRememberMe()
+    {
+        let userDefault = UserDefaults.standard
+        
+        if let email = userDefault.string(forKey: "email")
+        {
+            txtEmailId.text = email
+            
+            if let password = userDefault.string(forKey: "password")
+            {
+                txtPassword.text = password
+                remember.setOn(true, animated: false)
+            }
+        }
+    }
+    
+}
     
 
-}
+
