@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserLoginViewController.swift
 //  C0754427_MidTerm_MAD3115S2019
 //
 //  Created by MacStudent on 2019-07-12.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class LoginViewController: UIViewController
-{
-    @IBOutlet weak var txtEmailId: UITextField!
-    @IBOutlet weak var txtPassword: UITextField!
-  
+class UserLoginViewController: UIViewController {
+
     
+    
+    
+    
+    @IBOutlet weak var txtemailId: UITextField!
+    @IBOutlet weak var txtpassword: UITextField!
     
     
     @IBOutlet weak var switchRemember: UISwitch!
@@ -23,6 +25,8 @@ class LoginViewController: UIViewController
     let userDefault = UserDefaults.standard
     
     
+    
+    
     override func viewDidLoad() {
         switchRemember.isOn = false
         getRememberMe()
@@ -30,16 +34,17 @@ class LoginViewController: UIViewController
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
-    
-    @IBAction func button_Login(_ sender: Any)
+    @IBAction func btn_login(_ sender: Any)
     {
-    
-        if let email = txtEmailId.text{
+        
+        
+        if let email = txtemailId.text{
             if !email.isEmpty{
                 
                 if email.isVAlidEmail(){
-                    if let password = txtPassword.text{
+                    if let password = txtpassword.text{
                         if !password.isEmpty{
                             if password.sizeCheck(){
                                 
@@ -72,14 +77,10 @@ class LoginViewController: UIViewController
                 showAlerBox(msg: "Please enter useremail")
             }
         }
-        
-    
     }
-
-   
-   
-
-   
+    
+    
+    
     func showAlerBox(msg : String)  {
         let alertController = UIAlertController(title: "CustomerBillApp", message:
             msg, preferredStyle: .alert)
@@ -94,21 +95,22 @@ class LoginViewController: UIViewController
         let plist = Bundle.main.path(forResource: "Info_detail", ofType: "plist")
         
         if let dict = NSMutableDictionary(contentsOfFile: plist!){
-            if let Customers = dict["Users"] as? [[String:Any]]
+            if let Customers = dict["User"] as? [[String:Any]]
             {
                 for customer in Customers {
-                    let id = customer["userID"] as! Int
-                    let firstName = customer["userName"] as! String
+                    let id = customer["userId"] as! Int
+                    let firstName = customer["name"] as! String
                     
                     let email = customer["email"] as! String
                     let password = customer["password"] as! String
                     
                     self.UsersDict.append(UsersStruct(userId: id, name: firstName, email: email, password: password))
+                    //self.UsersDict.append(UsersStruct(userID: <#T##Int#>, userName: <#T##String#>, email: <#T##String#>, password: <#T##String#>))
                 }
             }
         }
         
-}
+    }
     func checkEmailPassword(email : String , password : String) -> Bool{
         
         for everyCustomer in UsersDict{
@@ -121,8 +123,8 @@ class LoginViewController: UIViewController
     
     func setRememberMe()  {
         if switchRemember.isOn {
-            userDefault.set(self.txtEmailId.text, forKey: "email")
-            userDefault.set(self.txtPassword.text, forKey: "password")
+            userDefault.set(self.txtemailId.text, forKey: "email")
+            userDefault.set(self.txtpassword.text, forKey: "password")
         }else{
             userDefault.set("", forKey: "email")
             userDefault.set("", forKey: "password")
@@ -135,17 +137,14 @@ class LoginViewController: UIViewController
         
         if let email = userDefault.string(forKey: "email")
         {
-            txtEmailId.text = email
+            txtemailId.text = email
             
             if let password = userDefault.string(forKey: "password")
             {
-                txtPassword.text = password
+                txtpassword.text = password
                 switchRemember.setOn(true, animated: false)
             }
         }
     }
-    
+   
 }
-    
-
-

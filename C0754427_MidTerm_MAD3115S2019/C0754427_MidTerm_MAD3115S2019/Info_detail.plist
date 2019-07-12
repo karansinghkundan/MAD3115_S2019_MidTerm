@@ -6,9 +6,9 @@
 	<array>
 		<dict>
 			<key>password</key>
-			<string></string>
+			<string>jazz@123</string>
 			<key>email</key>
-			<string></string>
+			<string>Jazz@gmail.com</string>
 			<key>userId</key>
 			<integer>21</integer>
 			<key>name</key>
@@ -16,9 +16,9 @@
 		</dict>
 		<dict>
 			<key>password</key>
-			<string></string>
+			<string>Shivani@123</string>
 			<key>email</key>
-			<string></string>
+			<string>Shivani@gmail.com</string>
 			<key>userId</key>
 			<integer>51</integer>
 			<key>name</key>
@@ -26,9 +26,9 @@
 		</dict>
 		<dict>
 			<key>password</key>
-			<string></string>
+			<string>zack@123</string>
 			<key>email</key>
-			<string></string>
+			<string>zack@gmail.com</string>
 			<key>userId</key>
 			<integer>41</integer>
 			<key>name</key>
@@ -36,9 +36,9 @@
 		</dict>
 		<dict>
 			<key>password</key>
-			<string></string>
+			<string>Priya@123</string>
 			<key>email</key>
-			<string></string>
+			<string>Priya@gmail.com</string>
 			<key>useId</key>
 			<integer>31</integer>
 			<key>name</key>
@@ -46,9 +46,9 @@
 		</dict>
 		<dict>
 			<key>password</key>
-			<string></string>
+			<string>karan@gmail.com</string>
 			<key>email</key>
-			<string></string>
+			<string>karan@123</string>
 			<key>userId</key>
 			<integer>11</integer>
 			<key>name</key>

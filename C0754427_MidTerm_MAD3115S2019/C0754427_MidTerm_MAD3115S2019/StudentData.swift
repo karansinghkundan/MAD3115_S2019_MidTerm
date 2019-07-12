@@ -9,8 +9,8 @@
 import Foundation
 
 struct UsersStruct {
-    let userID : Int
-    var userName : String
+    let userId : Int
+    var name : String
     //var customerLName : String
     var email : String
     var password : String
